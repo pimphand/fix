@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Latihan DatePicker | TutorialPedia.NET</title>
+	<link rel="shortcut icon" href="https://www.tutorialpedia.net/wp-content/uploads/2016/10/signature_icon_code4ward-2.ico" title="Favicon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <!-- Bootstrap --> 
+    <link href="css/bootstrap.min.css" rel="stylesheet"> 
+    <link href="css/datepicker.css" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script> 
+ 
+</head>
+<body>
+ 
+<center><H1>Membuat DatePicker Dengan Bootstrap</H1></center>
+ 
+<div class="row">
+    <div class="col-xs-7 col-xs-offset-3 col-sm-5 col-sm-offset-5 col-lg-5 col-lg-offset-5">
+    <div class="form-group" >
+        <div class="col-md-6">
+	            <div class="input-group date " data-date="" data-date-format="yyyy-mm-dd">
+	                <input class="form-control" type="text" name="tgl_regis" readonly="readonly">
+	                <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- /.col-lg-6 -->
+</div>
+<!-- /.row -->
+ 
+<center><h3>More Tutorial on <a href="https://www.tutorialpedia.net">TutorialPedia.NET</a></h3></center>
+ 
+ 
+ 
+ 
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap-datepicker.js"></script>
+    <script>
+    $(".input-group.date").datepicker({autoclose: true, todayHighlight: true});
+    </script>
+</body>
+</html>
